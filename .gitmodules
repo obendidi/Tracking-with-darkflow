@@ -1,0 +1,6 @@
+[submodule "darkflow"]
+	path = darkflow
+	url = https://github.com/bendidi/darkflow
+[submodule "deep_sort"]
+	path = deep_sort
+	url = https://github.com/bendidi/deep_sort.git
