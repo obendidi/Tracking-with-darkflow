@@ -1,7 +1,9 @@
 ## Intro
 
 The purpose of this little project is to add object tracking to yolov2 and achieve real-time multiple object tracking.
-The current architecture to only track one type of objects, but it should be easy to generalise over all objects
+
+The current architecture is set to only track one type of objects, but it should be easy to generalise over all objects.
+
 Currently support people tracking (as the provided weights for deep_sort were trained on people tracking)
 
 ## Dependencies
