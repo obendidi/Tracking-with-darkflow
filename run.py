@@ -12,7 +12,7 @@ FLAGS.load = "darkflow/bin/yolo.weights" # tensorflow weights
 FLAGS.threshold = 0.25 # threshold of decetion confidance (detection if confidance > threshold )
 FLAGS.gpu = 0.75 #how much of the GPU to use (between 0 and 1) 0 means use cpu
 FLAGS.track = True # wheither to activate tracking or not
-FLAGS.trackObj = "people" # the object to be tracked
+FLAGS.trackObj = "person" # the object to be tracked
 FLAGS.saveVideo = False  #whether to save the video or not
 FLAGS.BK_MOG = False # activate background substraction using cv2 MOG substraction,
                         #to help in worst case scenarion when YOLO cannor predict(able to detect mouvement, it's not ideal but well)
