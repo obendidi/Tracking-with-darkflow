@@ -18,7 +18,9 @@ Currently support people tracking (as the provided weights for deep_sort were tr
 for using sort :
 
 [`scikit-learn`](http://scikit-learn.org/stable/)
+
 [`scikit-image`](http://scikit-image.org/download)
+
 [`FilterPy`](https://github.com/rlabbe/filterpy)
 
 
