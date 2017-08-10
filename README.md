@@ -15,6 +15,13 @@ Currently support people tracking (as the provided weights for deep_sort were tr
     Cython.
     sklean.
 
+for using sort :
+
+    [`scikit-learn`](http://scikit-learn.org/stable/)
+    [`scikit-image`](http://scikit-image.org/download)
+    [`FilterPy`](https://github.com/rlabbe/filterpy)
+
+
 ### Setup
 
 1 - Clone this repository : `git clone https://github.com/bendidi/Tracking-with-darkflow.git`
@@ -46,11 +53,11 @@ Edit Flags in `run.py` following your configuration :
 - `BK_MOG` : add opencv's MOG background subtraction module, only useful when YOLO can't detect people in a video (low quality, ...) use it to detect boxes around moving objects
 - `tracker` : which tracker to use : "deep_sort" or "sort"
 
-            NOTE : "deep_sort" only supports people tracking as it was only trained to track people(the code for training is not yet published)
+            **NOTE** : "deep_sort" only supports people tracking as it was only trained to track people(the code for training is not yet published)
 
-            TODO : add support for GOTURN tracker(tensorflow implementation)
-            
-            TODO : add support for opencv trackers (MIL,KCF,TLD,MEDIANFLOW)
+            **TODO** : add support for GOTURN tracker(tensorflow implementation)
+
+            **TODO** : add support for opencv trackers (MIL,KCF,TLD,MEDIANFLOW)
 
 - `skip ` : skip frames to increase fps, might decrease accuracy !
 - `csv` : save csv file of detections in the format (frame_id,object_id,x,y,w,h)
