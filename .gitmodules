@@ -4,6 +4,3 @@
 [submodule "sort"]
 	path = sort
 	url = https://github.com/bendidi/sort.git
-[submodule "darkflow"]
-	path = darkflow
-	url = https://github.com/bendidi/darkflow.git
