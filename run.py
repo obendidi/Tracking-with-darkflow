@@ -17,7 +17,7 @@ FLAGS.saveVideo = False  #whether to save the video or not
 FLAGS.BK_MOG = False # activate background substraction using cv2 MOG substraction,
                         #to help in worst case scenarion when YOLO cannor predict(able to detect mouvement, it's not ideal but well)
                         # helps only when number of detection < 5, as it is still better than no detection.
-FLAGS.tracker = "sort" # wich algorithm to use for tracking deep_sort/sort (NOTE : deep_sort only trained for people detection )
+FLAGS.tracker = "deep_sort" # wich algorithm to use for tracking deep_sort/sort (NOTE : deep_sort only trained for people detection )
 FLAGS.skip = 0 # how many frames to skipp between each detection to speed up the network
 FLAGS.csv = True #whether to write csv file or not(only when tracking is set to True)
 FLAGS.display = False # display the tracking or not
