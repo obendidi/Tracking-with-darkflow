@@ -30,6 +30,8 @@ for using sort :
 
 2 - Initialize all submodules: `git submodule update --init --recursive`
 
+3 - Go to darkflow directory and do in place build: `python3 setup.py build_ext --inplace`
+
 ## Getting started
 
 Download the weights :
