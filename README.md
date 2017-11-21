@@ -52,7 +52,7 @@ Edit Flags in `run.py` following your configuration :
 - `threshold` : the confidance threshold of the YOLO detections
 - `gpu` : How much GPU to use, 0 means use cpu
 - `track` : to activate tracking or Not
-- `trackObj`: which object to track (notice that deep_sort's encoder was only trained on people , so you need train your own encoder, more information in [here](https://github.com/nwojke/deep_sort/issues/7))
+- `trackObj`: which objects to track as a list (notice that deep_sort's encoder was only trained on people , so you need train your own encoder, more information in [here](https://github.com/nwojke/deep_sort/issues/7))
 - `saveVideo` : whether to save video or not
 - `BK_MOG` : add opencv's MOG background subtraction module, only useful when YOLO can't detect people in a video (low quality, ...) use it to detect boxes around moving objects
 - `tracker` : which tracker to use : "deep_sort" or "sort"
