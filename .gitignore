@@ -101,3 +101,13 @@ ENV/
 .mypy_cache/
 
 *.avi
+
+*.meta
+
+*.MOV
+
+*.pb
+
+*.mp4
+
+*.csv
