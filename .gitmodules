@@ -5,5 +5,5 @@
 	path = sort
 	url = ../sort.git
 [submodule "darkflow"]
-	path = darkflow
+	path = dgit aarkflow
 	url = ../darkflow.git
