@@ -1,9 +1,9 @@
 [submodule "deep_sort"]
 	path = deep_sort
-	url = https://github.com/bendidi/deep_sort.git
+	url = git@github.com:neuromation/deep_sort.git
 [submodule "sort"]
 	path = sort
-	url = https://github.com/bendidi/sort.git
+	url = git@github.com:neuromation/sort.git
 [submodule "darkflow"]
 	path = darkflow
-	url = https://github.com/bendidi/darkflow.git
+	url = git@github.com:neuromation/darkflow.git
