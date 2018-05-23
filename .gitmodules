@@ -1,9 +1,9 @@
 [submodule "deep_sort"]
 	path = deep_sort
-	url = ../deep_sort.git
+	url = https://github.com/bendidi/deep_sort.git
 [submodule "sort"]
 	path = sort
-	url = ../sort.git
+	url = https://github.com/bendidi/sort.git
 [submodule "darkflow"]
-	path = dgit aarkflow
-	url = ../darkflow.git
+	path = darkflow
+	url = https://github.com/bendidi/darkflow.git
