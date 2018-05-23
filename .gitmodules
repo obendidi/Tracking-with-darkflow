@@ -6,4 +6,4 @@
 	url = git@github.com:neuromation/sort.git
 [submodule "darkflow"]
 	path = darkflow
-	url = git@github.com:neuromation//darkflow.git
+	url = git@github.com:neuromation/darkflow.git
