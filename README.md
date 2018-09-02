@@ -77,7 +77,7 @@ Next you just have to run `python run.py`, and enjoy !
 
     YOLO with track Flag set to True (deep_sort) : 14 fps
 
-    YOLO with track and background subtraction Flags set to Ture : 10.5 fps
+    YOLO with track and background subtraction Flags set to True : 10.5 fps
 
 Tests done on (1024, 1280, 3) resolution video on Nvidia GTX 1080
 
