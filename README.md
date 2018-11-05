@@ -40,7 +40,9 @@ Read more about YOLO (in darknet) and download weight files [here](http://pjredd
 
 The artchitecture I used/tested in this project is `cfg/yolo.cfg` with the weights `bin/yolo.weights`.
 
-Next you need to download the deep_sort weights [here](https://owncloud.uni-koblenz.de/owncloud/s/f9JB0Jr7f3zzqs8?path=%2Fresources) (networks folder), provided by [nwojke](https://github.com/nwojke)
+~~Next you need to download the deep_sort weights [here](https://owncloud.uni-koblenz.de/owncloud/s/f9JB0Jr7f3zzqs8?path=%2Fresources) (networks folder), provided by [nwojke](https://github.com/nwojke)~~
+
+The deep_sort weights provided by [nwojke](https://github.com/nwojke) has been cancelled. you can get them from [here](https://drive.google.com/open?id=1eXm0EB8r4BywqHJzaorXTSOkIfFdTq59) instead ( thanks to [@louxy126](https://github.com/louxy126) )
 
 extract the folder and copy it to `deep_sort/resources`
 
